@@ -27,6 +27,7 @@
              "article-title":".article-title",
              "miembro-nombre":"[data-test-input=\"member-name\"]",
              "miembro-correo":"[data-test-input=\"member-email\"]",
-             "miembro-titulo-nombre":"[data-test-screen-title=\"\"]"
+             "miembro-titulo-nombre":"[data-test-screen-title=\"\"]",
+             "alerta_roja":".gh-alert-content"
           }       
   }
