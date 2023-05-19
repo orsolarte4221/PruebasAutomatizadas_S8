@@ -1,0 +1,27 @@
+{  
+    "buttons": {
+        "sign-in":"[type=\"submit\"]",
+        "user":"[class=\"gh-user-avatar relative\"]",
+        "profile":"[data-test-nav=\"user-profile\"]",
+        "profile-guardar":".gh-btn.gh-btn-primary.gh-btn-icon.ember-view",
+        "change-password":"[data-test-save-pw-button]",
+        "switch":".switch",
+        "regenerate-token":"[data-tooltip=\"Regenerate\"]",
+        "confirm-regenerate":"[class=\"gh-btn gh-btn-icon gh-btn-red\"]",
+        "miembros":"[data-test-nav=\"members\"]",
+        "miembros-nuevo":"[data-test-new-member-button=\"true\"]",
+        "miembro-guardar":"[data-test-button=\"save\"]",
+        "miembro-primero":".gh-member-avatar-image" 
+      },
+      "elements": {
+        "profile-nombre":"#user-name",
+        "old-password":"#user-password-old",
+        "new-password":"#user-password-new",
+        "verification-password":"#user-new-password-verification",
+        "confirm-password":"#user-new-password-verification",
+        "miembro-nombre":"[data-test-input=\"member-name\"]",
+        "miembro-correo":"[data-test-input=\"member-email\"]",
+        "miembro-titulo-nombre":"[data-test-screen-title=\"\"]"
+      }  
+
+}

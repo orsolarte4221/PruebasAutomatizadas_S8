@@ -1,0 +1,32 @@
+    {    
+         "buttons": {
+             "sign-in":"[data-test-button=\"sign-in\"]",
+             "posts": "[data-test-nav=\"posts\"]",
+             "new-post":"[data-test-new-post-button]",
+             "publish": "[data-test-button=\"publish-flow\"]",
+             "continue": "[data-test-button=\"continue\"]",
+             "confirm-publish": "[data-test-button=\"confirm-publish\"]",
+             "settings-menu-toggle": ".settings-menu-toggle",
+             "back-to-posts-button": "[data-test-link=\"posts\"]",
+             "delete-post-button": ".settings-menu-delete-button",
+             "confirm-delete-button": ".gh-btn.gh-btn-red",
+             "post-published":"[data-test-nav-custom=\"posts-Published\"]",
+             "post-view-link": ".post-view-link",
+             "miembros":"[data-test-nav=\"members\"]",
+             "miembros-nuevo":"[data-test-new-member-button=\"true\"]",
+             "miembro-guardar":"[data-test-button=\"save\"]",
+             "miembro-primero":".gh-member-avatar-image",   
+             "miembro-acciones":"[data-test-button=\"member-actions\"]",
+             "miembro-eliminar":"[data-test-button=\"delete-member\"]",
+             "miembro-eliminar-confirmacion":"[data-test-button=\"confirm\"]"
+           },
+           "elements": {
+             "post-title": ".gh-post-bookmark-title",
+             "lista-post-title": "h3.gh-content-entry-title",
+             "post-title-input": "[data-test-editor-title-input=\"\"]",
+             "article-title":".article-title",
+             "miembro-nombre":"[data-test-input=\"member-name\"]",
+             "miembro-correo":"[data-test-input=\"member-email\"]",
+             "miembro-titulo-nombre":"[data-test-screen-title=\"\"]"
+          }       
+  }

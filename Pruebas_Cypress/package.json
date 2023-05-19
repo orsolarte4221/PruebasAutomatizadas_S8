@@ -1,0 +1,15 @@
+{
+  "name": "cy10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open --browser chrome --e2e"
+  },
+  "author": "Equipo",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.11.0",
+    "cypress-wait-until": "^1.7.2"
+  }
+}

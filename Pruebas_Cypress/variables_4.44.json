@@ -1,0 +1,5 @@
+{
+  "UrlBase": "http://localhost:3002/ghost/#/signin",
+  "username": "test@mail.com",
+  "password": "Test123456"
+}

@@ -1,0 +1,35 @@
+{
+    "usuario_ghost": {
+        "email": "s.mascareno@uniandes.edu.co",
+        "password": "MISO123456789@"
+    },
+    
+    "buttons": {
+        "next":"button[data-test-button='sign-in']",
+        "pages": "a[data-test-nav='pages']",
+        "New Page":"a[data-test-new-page-button]",
+        "publish": "button[data-test-button='publish-flow']",
+        "continue": "[data-test-button=\"continue\"]",
+        "continue to final review": "button[data-test-button='continue']",
+        "confirm publish": "button[data-test-button='confirm-publish']",
+        "back to editor": "button[data-test-button='back-to-editor']",
+        "back to pages": "a[data-test-link='pages']",
+        "page settings": "button[title='Settings']",
+        "edit page2": "ol.pages-list > li:nth-child(1) > a > span",
+        "edit page": "h3.gh-content-entry-title",
+        "delete page": "button.settings-menu-delete-button",
+        "confirm delete": "button.gh-btn.gh-btn-red.gh-btn-icon.ember-view",
+        "unpublish page": "button.gh-unpublish-trigger",
+        "confirm unpublish": "button.gh-revert-to-draft",
+        "members": "a[data-test-nav='members']",
+        "new member": "a[href='#/members/new/']",
+        "save member":"button[data-test-button='save']"
+      },
+      "inputs":{
+        "name": "input[data-test-input='member-name']",
+        "email": "input[data-test-input='member-email']",
+        "note": "textarea[name='note']"
+      }
+      
+
+}

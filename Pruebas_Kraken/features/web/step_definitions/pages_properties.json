@@ -1,0 +1,46 @@
+{
+    "usuario_ghost": {
+        "email": "s.mascareno@uniandes.edu.co",
+        "password": "MISO123456789@"
+    },
+    
+    "buttons": {
+        "next":"button[data-test-button='sign-in']",
+        "next 4.44":"button.login",
+        "pages": "a[data-test-nav='pages']",
+        "pages 4.44": "a[href='#/pages/']",
+        "New Page":"a[data-test-new-page-button]",
+        "New Page 4.44":"a[href='#/editor/page/']",
+        "publish": "button[data-test-button='publish-flow']",
+        "publish 4.44": "div.gh-publishmenu-trigger",
+        "continue": "[data-test-button=\"continue\"]",
+        "continue to final review": "button[data-test-button='continue']",
+        "confirm publish": "button[data-test-button='confirm-publish']",
+        "confirm publish 4.44": "button.gh-publishmenu-button",
+        "back to editor": "button[data-test-button='back-to-editor']",
+        "back to pages": "a[data-test-link='pages']",
+        "back to pages 4.44": "a[href='#/pages/']",
+        "page settings": "button[title='Settings']",
+        "page settings 4.44": "button[title='Settings']",
+        "edit page": "h3.gh-content-entry-title",
+        "edit page 4.44": "h3.gh-content-entry-title",
+        "delete page": "button.settings-menu-delete-button",
+        "delete page 4.44": "button.settings-menu-delete-button",
+        "confirm delete": "button.gh-btn.gh-btn-red.gh-btn-icon.ember-view",
+        "confirm delete 4.44": "button.gh-btn.gh-btn-red.gh-btn-icon.ember-view",
+        "unpublish page": "button.gh-unpublish-trigger",
+        "confirm unpublish": "button.gh-revert-to-draft",
+        "members": "a[data-test-nav='members']",
+        "new member": "a[href='#/members/new/']",
+        "save member":"button[data-test-button='save']"
+      },
+      "elements": {
+        "post-title": ".gh-post-bookmark-title"
+      },
+      "inputs":{
+        "name": "input[data-test-input='member-name']",
+        "email": "input[data-test-input='member-email']",
+        "note": "textarea[name='note']"
+      }
+
+}

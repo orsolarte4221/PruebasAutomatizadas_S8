@@ -1,0 +1,34 @@
+{
+    "usuario_ghost": {
+        "email": "s.mascareno@uniandes.edu.co",
+        "password": "MISO123456789@"
+    },
+    
+    "buttons": {
+          "next":"button.login",
+          "pages": "a[href='#/pages/']",
+          "New Page":"a[href='#/editor/page/']",
+          "publish": "div.gh-publishmenu-trigger",
+          "continue": "[data-test-button=\"continue\"]",
+          "continue to final review": "div.gh-publishmenu-trigger",
+          "confirm publish": "button.gh-publishmenu-button",
+          "back to editor": "button[data-test-button='back-to-editor']",
+          "back to pages": "a[href='#/pages/']",
+          "page settings": "button[title='Settings']",
+          "edit page": "h3.gh-content-entry-title",
+          "delete page": "button.settings-menu-delete-button",
+          "confirm delete": "button.gh-btn.gh-btn-red.gh-btn-icon.ember-view",
+          "unpublish page": "button.gh-unpublish-trigger",
+          "confirm unpublish": "button.gh-revert-to-draft",
+          "members": "a[data-test-nav='members']",
+          "new member": "a[href='#/members/new/']",
+          "save member":"button[data-test-button='save']"
+      },
+      "inputs":{
+        "name": "input[data-test-input='member-name']",
+        "email": "input[data-test-input='member-email']",
+        "note": "textarea[name='note']"
+      }
+      
+
+}

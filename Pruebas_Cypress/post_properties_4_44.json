@@ -1,0 +1,37 @@
+    {    
+         "buttons": {
+          
+             "sign-in":"button.login",
+             "posts": "a[href='#/posts/']",
+             "new-post":"a[href='#/editor/post/'",
+             "publish": "div.gh-publishmenu-trigger",
+             "continue": ".gh-btn.gh-btn-black.gh-btn-icon.ember-view",
+             "confirm-publish": ".gh-btn.gh-btn-black.gh-publishmenu-button.gh-btn-icon.ember-view",
+             "settings-menu-toggle": ".settings-menu-toggle",
+             "back-to-posts-button": "[data-test-link=\"posts\"]",
+             "delete-post-button": ".settings-menu-delete-button",
+             "confirm-delete-button": ".gh-btn.gh-btn-red",
+             "post-published":"a[title=\"Published\"]",
+             "post-view-link": ".post-view-link",
+             "miembros":"a[href='#/members/']",
+             "miembros-nuevo":"a[href='#/members/new/']",
+             "miembro-guardar":"Save",
+             "miembro-primero":".gh-members-list-name",   
+             "miembro-acciones":".gh-btn-action-icon",
+             "miembro-eliminar":"span.red",
+             "miembro-eliminar-confirmacion":".gh-btn.gh-btn-red.gh-btn-icon",
+             "alert-new-version":".gh-alert-close"
+           },
+           "elements": {
+             "post-title": ".gh-post-bookmark-title",
+             "lista-post-title": "h3.gh-content-entry-title",
+             "post-title-input": "textarea.gh-editor-title",
+             "article-title":".article-title",
+             "miembro-nombre":"#member-name",
+             "miembro-correo":"#member-email",
+             "miembro-titulo-nombre":"h3",
+             "login-identificacion":"input[name=\"identification\"]",
+             "login-password":"input[name=\"password\"]"
+
+          }       
+  }
