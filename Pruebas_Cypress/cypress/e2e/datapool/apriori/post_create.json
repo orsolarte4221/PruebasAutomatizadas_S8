@@ -24,9 +24,26 @@
       "postexertp_test_onlimit": {
         "title": "Correct title",
         "body": "Correct Body",
-        "excerpt": "Aqui va un texto de 300 palabras"
-      }          
+        "excerpt_onlimit": "Programmable even-keeled definition Programmable even-keeled definition Programmable even-keeled definition Programmable even-keeled definition Programmable even-keeled definition Programmable even-keeled definition Programmable even-keeled definition Programmable even-keeled definition Programmable"
+      },      
+      
+      "postexertp_test_overlimit": {
+        "title": "Correct title",
+        "body": "Correct Body",
+        "excerpt_overlimit": "Programmable even-keeled definition Programmable even-keeled definition Programmable even-keeled definition Programmable even-keeled definition Programmable even-keeled definition Programmable even-keeled definition Programmable even-keeled definition Programmable even-keeled definition Programmable e"
+      },           
 
+      "postexcerpt_testJavascript": {
+        "title": "Correct title",
+        "body": "Correct Body",
+        "excerpt_javascript": "<script>alert(\"Hello, Body!\");</script>"
+      },         
+
+      "postexcerpt_testSpecialCharts": {
+        "title": "Correct title",
+        "body": "Correct Body",
+        "excerpt_special_charts": "< > ' \" & \\ / ` ; % # @ = + ^ | ~ [ ] { } ? ! $ : , *   "
+      }            
 
  }
 
