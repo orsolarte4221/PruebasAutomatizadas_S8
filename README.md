@@ -12,9 +12,9 @@ Ghost Version 5.40.2
 **Es necesario no tener ninguna página en Draft para que algunas pruebas corran correctarmente**
 
 # Los 120 escenarios de prueba con los datapool de las tres estrategias (a-priori, aleatorias, pseudoaleatorias)
-Se desarrollaron los 120 escnearios en la herramienta Cypress, a continuación se deja el link
+Se desarrollaron los 120 escearios en la herramienta Cypress, a continuación se deja el link
 de que describe el oráculo de las pruebas realizadas con sus respectivas estrategias: 
-
+https://docs.google.com/spreadsheets/d/1gVM5PM4aSzjrGK2L50b_i-QxFjsn8CHwuPp6mAk6UoM/edit?usp=sharing
 
 ## Ejecutar Pruebas en Cypress
   1) Clonar el Repositorio
@@ -26,12 +26,13 @@ de que describe el oráculo de las pruebas realizadas con sus respectivas estrat
   7) Ejecutar el comando "cypress open"
   8) Configurar el ambiente de pruebas seleccionando la carpeta "Pruebas_Cypress" en el repositorio local
   9) Seleccionar la prueba a correr en la carpeta de Specs. Para esta semana se organizaron las carpetas de las pruebas de la siguiente manera:
-    - **e2e/datapool/apriori**  ->Contiene las pruebas que se desarrollaron con la estrategia de datapool a priori. 
-    - **e2e/datapool/aleatorio**  ->Contiene las pruebas que se desarrollaron con la estrategia de datapool aleatorio.
-    - **e2e/datapool/pseudo-aleatorio**  ->Contiene las pruebas que se desarrollaron con la estrategia de datapool pseudo-aleatorio.
+- **e2e/datapool/apriori**  ->Contiene las pruebas que se desarrollaron con la estrategia de datapool a priori.
+- **e2e/datapool/aleatorio**  ->Contiene las pruebas que se desarrollaron con la estrategia de datapool aleatorio.
+- **e2e/datapool/pseudo-aleatorio**  ->Contiene las pruebas que se desarrollaron con la estrategia de datapool pseudo-aleatorio.
+
 
 # Descripción de las estregias utilizadas
-A continuación se encuentra el enlace donde se explica la forma de implementación de las estrategias utilizads (apriori,aleatorio, pseudoaleatorio): 
+A continuación se encuentra el enlace donde se explica la forma de implementación de las estrategias utilizadas (apriori,aleatorio, pseudoaleatorio): 
 
 
 
@@ -39,15 +40,4 @@ A continuación se encuentra el enlace donde se explica la forma de implementaci
 
 https://github.com/users/sebastianmd11/projects/1
 
-
-# Lista de funcionalidades para pruebas con estrategia de datpool
-- Post: Crear un Post
-- Post: Editar un Post
-- Miembro: Filtrar Miembros
-- Pages: Crear nueva página
-- Pages: Eliminar Página
-- Tag: Eliminar un tag
-- Tag: Nuevo Tag
-- User: Cambiar contraseña
-- User: Modificar información de usuario
 
