@@ -19,7 +19,13 @@
       "postbody_testJavascript": {
         "title": "Correct title",
         "body": "<script>alert(\"Hello, Body!\");</script>"
-      }    
+      },    
+
+      "postexertp_test_onlimit": {
+        "title": "Correct title",
+        "body": "Correct Body",
+        "excerpt": "Aqui va un texto de 300 palabras"
+      }          
 
 
  }
