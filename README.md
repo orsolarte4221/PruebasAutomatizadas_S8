@@ -26,12 +26,13 @@ de que describe el oráculo de las pruebas realizadas con sus respectivas estrat
   7) Ejecutar el comando "cypress open"
   8) Configurar el ambiente de pruebas seleccionando la carpeta "Pruebas_Cypress" en el repositorio local
   9) Seleccionar la prueba a correr en la carpeta de Specs. Para esta semana se organizaron las carpetas de las pruebas de la siguiente manera:
-    **e2e/datapool/apriori**  ->Contiene las pruebas que se desarrollaron con la estrategia de datapool a priori. 
-    **e2e/datapool/aleatorio**  ->Contiene las pruebas que se desarrollaron con la estrategia de datapool aleatorio.
-     **e2e/datapool/pseudo-aleatorio**  ->Contiene las pruebas que se desarrollaron con la estrategia de datapool pseudo-aleatorio.
+    - **e2e/datapool/apriori**  ->Contiene las pruebas que se desarrollaron con la estrategia de datapool a priori. 
+    - **e2e/datapool/aleatorio**  ->Contiene las pruebas que se desarrollaron con la estrategia de datapool aleatorio.
+    - **e2e/datapool/pseudo-aleatorio**  ->Contiene las pruebas que se desarrollaron con la estrategia de datapool pseudo-aleatorio.
 
 # Descripción de las estregias utilizadas
-A continuación se encuentra el enlace donde se explica la forma de implementación de las estrategias utilizads (apriori,aleatorio, pseudoaleatorio): https://github.com/sebastianmd11/PruebasAutomatizdas_S6/wiki/Pros-y-contras-Ressemble-y-Backstop
+A continuación se encuentra el enlace donde se explica la forma de implementación de las estrategias utilizads (apriori,aleatorio, pseudoaleatorio): 
+
 
 
 # Reportes de incidencias visuales.
