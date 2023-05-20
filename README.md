@@ -35,9 +35,7 @@ https://docs.google.com/spreadsheets/d/1gVM5PM4aSzjrGK2L50b_i-QxFjsn8CHwuPp6mAk6
 A continuación se encuentra el enlace donde se explica la forma de implementación de las estrategias utilizadas (apriori,aleatorio, pseudoaleatorio): 
 
 
-
-# Reportes de incidencias visuales.
-
-https://github.com/users/sebastianmd11/projects/1
+# Reportes de errores encontrados.
+[https://github.com/users/sebastianmd11/projects/1](https://github.com/users/sebastianmd11/projects/4/views/1)
 
 
