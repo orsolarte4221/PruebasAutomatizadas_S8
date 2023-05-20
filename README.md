@@ -33,7 +33,7 @@ https://docs.google.com/spreadsheets/d/1gVM5PM4aSzjrGK2L50b_i-QxFjsn8CHwuPp6mAk6
 
 # Descripción de las estregias utilizadas
 A continuación se encuentra el enlace donde se explica la forma de implementación de las estrategias utilizadas (apriori,aleatorio, pseudoaleatorio): 
-
+https://docs.google.com/document/d/1I37TNeVeijRIs9NRlNPq2tCz10bPPuxfTw8sCiTqeQQ/edit
 
 # Reportes de errores encontrados.
 [https://github.com/users/sebastianmd11/projects/1](https://github.com/users/sebastianmd11/projects/4/views/1)
