@@ -30,6 +30,7 @@ describe('tratar de generar un nuevo miembro con el campo nombre excediendo el l
       cy.get(properties.buttons.members).click()
       cy.wait(1000)
       cy.get(properties.buttons['new member']).click()
+      cy.wait(1000)
       cy.get(properties.inputs.name).type(longName)
       cy.get(properties.inputs.email).type(email)
       cy.get(properties.inputs.note).type(notes)

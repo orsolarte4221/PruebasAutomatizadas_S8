@@ -19,8 +19,8 @@ twitter_desc = twitter_desc.slice(0,501)
 
 
 
-describe('Tratar de ingresar sesion con un email registrado y contraseña incorrecta', () => {
-  it('Ingresa un email registrado y una contraseña incorrecta y da click en inciar sesion', () => {
+describe('Añade una descripción a los metadatos de Twitter por encima del límite de caracteres', () => {
+  it('Añade una descripción a los metadatos de Twitter por encima del límite de caracteres', () => {
       
       cy.visit(variables.UrlBase)
       cy.get('#identification').type(variables.username)

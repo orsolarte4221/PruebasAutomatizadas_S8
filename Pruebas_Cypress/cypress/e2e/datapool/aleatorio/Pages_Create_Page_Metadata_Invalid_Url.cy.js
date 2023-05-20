@@ -20,8 +20,8 @@ metadata_description = metadata_description.slice(0,145)
 
 
 
-describe('Tratar de ingresar sesion con un email registrado y contraseña incorrecta', () => {
-  it('Ingresa un email registrado y una contraseña incorrecta y da click en inciar sesion', () => {
+describe('Añade un URL invalido a los metadatos', () => {
+  it('Añade un URL invalido a los metadatos', () => {
       
       cy.visit(variables.UrlBase)
       cy.get('#identification').type(variables.username)

@@ -18,8 +18,8 @@ fb_title = fb_title.slice(0,301)
 
 
 
-describe('Tratar de ingresar sesion con un email registrado y contraseña incorrecta', () => {
-  it('Ingresa un email registrado y una contraseña incorrecta y da click en inciar sesion', () => {
+describe('Añade un titulo a los metadatos de FB con el limite de caracteres', () => {
+  it('Añade un titulo a los metadatos de FB con el limite de caracteres', () => {
       
       cy.visit(variables.UrlBase)
       cy.get('#identification').type(variables.username)
