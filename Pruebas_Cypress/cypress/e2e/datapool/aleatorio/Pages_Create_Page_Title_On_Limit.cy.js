@@ -20,8 +20,8 @@ longTitle = longTitle.slice(0,255);
 const pageBody = faker.lorem.paragraphs(5);
 
 
-describe('Tratar de ingresar sesion con un email registrado y contraseña incorrecta', () => {
-  it('Ingresa un email registrado y una contraseña incorrecta y da click en inciar sesion', () => {
+describe('Crear una página con el título en el limite de caracteres', () => {
+  it('Crear una página con el título en el limite de caracteres', () => {
       
       cy.visit(variables.UrlBase)
       cy.get('#identification').type(variables.username)

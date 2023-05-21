@@ -22,8 +22,8 @@ longEmail = longEmail.slice(0,255);
 //Agregar Dominio
 longEmail = longEmail + "@hotmail.com"
 
-describe('tratar de generar un nuevo miembro con el campo nombre excediendo el límite de caracteres', () => {
-  it('tratar de generar un nuevo miembro con el campo nombre excediendo el límite de caracteres', () => {
+describe('tratar de generar un nuevo miembro con el campo email excediendo el límite de caracteres', () => {
+  it('tratar de generar un nuevo miembro con el campo email excediendo el límite de caracteres', () => {
       
       cy.visit(variables.UrlBase)
       cy.get('#identification').type(variables.username)
@@ -33,6 +33,7 @@ describe('tratar de generar un nuevo miembro con el campo nombre excediendo el l
       cy.get(properties.buttons.members).click()
       cy.wait(1000)
       cy.get(properties.buttons['new member']).click()
+      cy.wait(1000)
       cy.get(properties.inputs.name).type(name)
       cy.get(properties.inputs.email).type(longEmail)
       cy.get(properties.inputs.note).type(notes)

@@ -21,8 +21,8 @@ longNote = longNote.replace(/[\r\n]+/g, ' ');
 longNote = longNote.slice(0,501);
 
 
-describe('Crear un nuevo miembro con el campo nombre en el límite de caracteres', () => {
-  it('Crear un nuevo miembro con el campo nombre en el límite de caracteres', () => {
+describe('Crear un nuevo miembro con el campo notes arriba del límite de caracteres', () => {
+  it('Crear un nuevo miembro con el campo notes arriba del límite de caracteres', () => {
       
       cy.visit(variables.UrlBase)
       cy.get('#identification').type(variables.username)

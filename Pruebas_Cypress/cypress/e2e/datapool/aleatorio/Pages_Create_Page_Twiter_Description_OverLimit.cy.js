@@ -19,8 +19,8 @@ twitter_desc = twitter_desc.slice(0,501)
 
 
 
-describe('Tratar de ingresar sesion con un email registrado y contraseña incorrecta', () => {
-  it('Ingresa un email registrado y una contraseña incorrecta y da click en inciar sesion', () => {
+describe('Añade una descripción a los metadatos de Twitter por encima del límite de caracteres', () => {
+  it('Añade una descripción a los metadatos de Twitter por encima del límite de caracteres', () => {
       
       cy.visit(variables.UrlBase)
       cy.get('#identification').type(variables.username)
@@ -36,17 +36,12 @@ describe('Tratar de ingresar sesion con un email registrado y contraseña incorr
       cy.get('input[name="post-setting-twitter-title"]').type(twitter_title)
       cy.get('textarea[name="post-setting-twitter-description"]').type(twitter_desc)
       cy.get('input[name="post-setting-twitter-title"]').click()
-
-      cy.get('button[aria-label="Close Twitter card panel"]').click()
-      cy.get(properties.buttons['page settings']).click()
       
       
       
+      cy.get('.response').should('contain', 'Twitter Description cannot be longer than 500 characters.')
+    
+    
       
-      cy.get(properties.buttons.publish).should('be.enabled')
-      
-      
-      
-     
   });
 });
