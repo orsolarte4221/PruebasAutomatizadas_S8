@@ -1,0 +1,77 @@
+
+
+{    
+    "nameOverLimit": {
+      "name": "Consequatur et quasi reiciendis et excepturi maiores. Est voluptatem corporis non quam eius ea expedita consequuntur 33 nemo quos. Est illum pariatur nam provident quia non galisum distinctio.",
+      "description": "Correct Description",
+      "color":"156748",
+      "slug":"Correct Slug"
+    },
+
+    "nameOnLimit": {
+      "name": "Consequaturet quasi reiciendis et excepturi maiores. Est voluptatem corporis non quam eius ea expedita consequuntur 33 nemo quos. Est illum pariatur nam provident quia non galisum distinctio.",
+      "description": "Correct Description",
+      "color":"156748",
+      "slug":"Correct Slug"
+    },
+
+    "nameWithSpecialCharacters": {
+      "name": "< > ' \" & \\ / ` ; % # @ = + ^ | ~ [ ] { } ? ! $ : , *   ",
+      "description": "Correct Description",
+      "color":"156748",
+      "slug":"Correct Slug"
+    },
+    
+    "descriptionOverLimit": {
+      "name": "Correct Name",
+      "description": "Lorem ipsum dolor sit amet. Aut quae soluta non iure vitae et voluptatem reiciendis qui fugiat officiis ut recusandae laboriosam ut suscipit repellat quo voluptatem voluptatem. Qui Quis dolorem est galisum itaque aut assumenda quia ex ratione rerum vel dignissimos dolore vel eveniet quia ut voluptatum totam. Vel illum quam sed incidunt repudiandae aut voluptatem dolorum cum harum accusamus? In omnis tempore in provident accusantium rem doloremque molestiae vel recusandae adipisci ut dolores illum et eaque itaque et officiis necessitatibus.",
+      "color":"156748",
+      "slug":"Correct Slug"
+    },
+
+    "descriptionOnLimit": {
+      "name": "Correct Name",
+      "description": "Lorem ipsum dolor sit amet. Aut quae soluta non iure vitae et voluptatem reiciendis qui fugiat officiis ut recusandae laboriosam ut suscipit repellat quo voluptatem voluptatem. Qui Quis dolorem est galisum itaque aut assumenda quia ex ratione rerum vel dignissimos dolore vel eveniet quia ut voluptatum totam. Vel illum quam sed incidunt repudiandae aut voluptatem dolorum cum harum accusamus? In omnis tempore in provident accusantium rem doloremque molestiae vel recusandae adipisci ut dolores illu",
+      "color":"156748",
+      "slug":"Correct Slug"
+    },
+
+    "descriptionWithSpecialCharacters": {
+      "name": "Correct Name",
+      "description": "< > ' \" & \\ / ` ; % # @ = + ^ | ~ [ ] { } ? ! $ : , *   ",
+      "color":"156748",
+      "slug":"Correct Slug"
+    },
+
+    "colorOverLimit": {
+      "name": "Correct Name",
+      "description": "Correct Description",
+      "color":"156748123",
+      "slug":"Correct Slug"
+    },
+
+    "ColorOnLimit": {
+      "name": "Correct Name",
+      "description": "Correct Description",
+      "color":"123456",
+      "slug":"Correct Slug"
+    },
+
+    "ColorWithAlfanum": {
+      "name": "Correct Name",
+      "description": "Correct Description",
+      "color":"ertgd1",
+      "slug":"Correct Slug"
+    },
+
+    "SlugWithSpecialCharacters": {
+      "name": "Correct Name",
+      "description": "Correct Description",
+      "color":"ertgd1",
+      "Slug":"< > ' \" & \\ / ` ; % # @ = + ^ | ~ [ ] { } ? ! $ : , *   "
+    } 
+
+ }
+
+
+ 
