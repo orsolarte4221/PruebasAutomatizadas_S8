@@ -1,0 +1,32 @@
+{
+    "passCorrect": {
+        "password": "Test123456",
+        "newPassword": "Test123456",
+        "verifyPassword": "Test123456"
+    },
+    "passIncorrect": {
+        "password": "incorrect",
+        "newPassword": "Test123456",
+        "verifyPassword": "Test123456"
+    },
+    "verifyIncorrect": {
+        "password": "Test123456",
+        "newPassword": "Test123456",
+        "verifyPassword": "incorrect"
+    },
+    "allIncorrect": {
+        "password": "incorrect",
+        "newPassword": "incorrect",
+        "verifyPassword": "incorrect"
+    },
+    "underLimit": {
+        "password": "Test123456",
+        "newPassword": "Test",
+        "verifyPassword": "Test"
+    },
+    "insecure": {
+        "password": "Test123456",
+        "newPassword": "aaaaaaaaaa",
+        "verifyPassword": "aaaaaaaaaa"
+    }
+}
