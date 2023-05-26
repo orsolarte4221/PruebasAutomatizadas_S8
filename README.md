@@ -36,6 +36,6 @@ A continuación se encuentra el enlace donde se explica la forma de implementaci
 https://docs.google.com/document/d/1I37TNeVeijRIs9NRlNPq2tCz10bPPuxfTw8sCiTqeQQ/edit
 
 # Reportes de errores encontrados.
-[https://github.com/users/sebastianmd11/projects/1](https://github.com/users/orsolarte4221/projects/1)
+[https://github.com/users/orsolarte4221/projects/1](https://github.com/users/orsolarte4221/projects/1)
 
 
