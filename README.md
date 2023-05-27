@@ -16,6 +16,11 @@ Se desarrollaron los 120 escearios en la herramienta Cypress, a continuación se
 de que describe el oráculo de las pruebas realizadas con sus respectivas estrategias: 
 https://docs.google.com/spreadsheets/d/1gVM5PM4aSzjrGK2L50b_i-QxFjsn8CHwuPp6mAk6UoM/edit?usp=sharing
 
+## Pruebas Manuales:
+A continuación se relación el inventario de pruebas exploratorias: 
+https://docs.google.com/spreadsheets/d/1joYjKJC0qUsNV_ruj0-BSPM4LPODZk0M/edit?rtpof=true&sd=true#gid=54945760
+
+
 ## Ejecutar Pruebas en Cypress
   1) Clonar el Repositorio
   2) Abrir una terminal en la carpeta del repositorio
@@ -48,6 +53,19 @@ https://docs.google.com/spreadsheets/d/1gVM5PM4aSzjrGK2L50b_i-QxFjsn8CHwuPp6mAk6
   4) Ejecutar el comando "npm install"
   5) Cambiar las credenciales de acceso en monkey-config.json y smart-monkey-config.json
   6) Ejecutar el monkey con el comando **npx cypress run --config-file smart-monkey-config.json**
+
+## Ejecutar Pruebas en Rippet
+* Clonar el Repositorio
+* Abrir una terminal en la carpeta del repositorio
+* Dirigirse a la carpeta "RIPuppetCoursera"
+* Ejecutar el comando "npm install"
+* Configure las contraseñas del sitio Ghost en el archivo config.json
+![image](https://github.com/orsolarte4221/PruebasAutomatizadas_S8/assets/124013367/f5b7ff32-d476-4660-8261-a0fa55dfeaa0)
+* Ejecute en la terminal el comando node index.js
+* En la pantalla de inicio de sesión introduzca los parametros de sesión para continuar.
+* El Rippet Inicia Ejecución.
+* Monitoree el rippet, si se queda atascado debe reconfigurar el index.js
+* Los resultados de la ejecución los encontratá en la carpeta  RIPuppetCoursera/results 
   
 # Descripción de las estregias utilizadas
 A continuación se encuentra el enlace donde se explica la forma de implementación de las estrategias utilizadas (apriori,aleatorio, pseudoaleatorio): 
