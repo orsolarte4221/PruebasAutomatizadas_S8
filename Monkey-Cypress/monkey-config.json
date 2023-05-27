@@ -2,6 +2,8 @@
     "projectId":"TSDL-Monkey-with-cypress",
     "baseUrl":"http://localhost:2368/ghost/#/setup/one",
     "env":{
+        "identification": "s.mascareno@uniandes.edu.co",
+        "password": "MISO123456789@",
         "appName":"App prueba",
         "events":50,
         "delay":300,
