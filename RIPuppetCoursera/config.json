@@ -1,0 +1,11 @@
+{
+    "url": "http://localhost:2368/ghost/#/posts",
+    "headless": false,
+    "depthLevels": 3,
+    "inputValues": true,
+    "values": {
+        "identification":"o.solarte@uniandes.edu.co",
+        "password":"Test"
+    },
+    "browsers": ["chromium"]
+}
