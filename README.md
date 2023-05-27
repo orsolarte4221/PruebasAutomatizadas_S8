@@ -70,7 +70,7 @@ https://docs.google.com/spreadsheets/d/1joYjKJC0qUsNV_ruj0-BSPM4LPODZk0M/edit?rt
 * Monitoree el rippet, si se queda atascado debe reconfigurar el index.js
 * Los resultados de la ejecución los encontratá en la carpeta  RIPuppetCoursera/results 
 
-## Código del Reporte de comparación en html
+## Ejecutar pruebas de regresión visual: Código del Reporte de comparación en html
 * Dentro de la carpeta Pruebas_Visual_Resemble/results se encuentran los resultados de los escenarios de cada prueba de regresion visual. Por cada funcionalidad se crea una carpeta que contiene internamente los screenshots de la versión de Ghost 4.44 y la versión de Ghost 5.40 (before y after). Dentro de cada carpeta contiene los screenshots de comparación y el archivo reporte.html que muestra el reporte por cada funcionalidad.
   
 # Descripción de las estregias utilizadas
