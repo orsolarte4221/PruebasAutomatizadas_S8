@@ -30,7 +30,25 @@ https://docs.google.com/spreadsheets/d/1gVM5PM4aSzjrGK2L50b_i-QxFjsn8CHwuPp6mAk6
 - **e2e/datapool/aleatorio**  ->Contiene las pruebas que se desarrollaron con la estrategia de datapool aleatorio.
 - **e2e/datapool/pseudo-aleatorio**  ->Contiene las pruebas que se desarrollaron con la estrategia de datapool pseudo-aleatorio.
 
-
+## Ejecutar Pruebas en Kraken
+  1) Clonar el Repositorio
+  2) Abrir una terminal en la carpeta del repositorio
+  3) Dirigirse a la carpeta "Pruebas_Kraken"
+  4) Ejecutar el comando "npm install"
+  5) Abrir el proyecto en un editor como VS Code
+  6) Modificar las credenciales de acceso a ghost en el archivo **"Pruebas_Kraken/features/web/step_definitions/variables.json"**
+  7) Mover la prueba o las pruebas a ejecutar desde el folder **Pruebas_Kraken/feature/web/Feature_Storage** al folder **Pruebas_Kraken/feature**
+  8) Ejecutar el comando "npx kraken-node run"
+  9) Las capturas de pantalla generadas pueden ser revisadas en la ruta **Pruebas_Kraken/reports**
+ 
+## Ejecutar el Monkey
+  1) Clonar el Repositorio
+  2) Abrir una terminal en la carpeta del repositorio
+  3) Dirigirse a la carpeta "Monkey-Cypress"
+  4) Ejecutar el comando "npm install"
+  5) Cambiar las credenciales de acceso en monkey-config.json y smart-monkey-config.json
+  6) Ejecutar el monkey con el comando **npx cypress run --config-file smart-monkey-config.json**
+  
 # Descripción de las estregias utilizadas
 A continuación se encuentra el enlace donde se explica la forma de implementación de las estrategias utilizadas (apriori,aleatorio, pseudoaleatorio): 
 https://docs.google.com/document/d/1I37TNeVeijRIs9NRlNPq2tCz10bPPuxfTw8sCiTqeQQ/edit
