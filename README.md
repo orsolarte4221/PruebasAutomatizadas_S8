@@ -14,10 +14,13 @@ Ghost Version 5.40.2
 
 **Es necesario no tener ninguna página en Draft para que algunas pruebas corran correctarmente**
 
-# Los 120 escenarios de prueba con los datapool de las tres estrategias (a-priori, aleatorias, pseudoaleatorias)
+# Los 130 escenarios de prueba con los datapool de las tres estrategias (a-priori, aleatorias, pseudoaleatorias)
 Se desarrollaron los 120 escearios en la herramienta Cypress, a continuación se deja el link
 de que describe el oráculo de las pruebas realizadas con sus respectivas estrategias: 
 https://docs.google.com/spreadsheets/d/1gVM5PM4aSzjrGK2L50b_i-QxFjsn8CHwuPp6mAk6UoM/edit?usp=sharing
+
+*En la semana 8 se agregan 10 escenenarios adicionales en la ejecución de estrategia de pruebas con Datapool*
+
 
 ## Pruebas Manuales:
 A continuación se relación el inventario de pruebas exploratorias: 
