@@ -1,7 +1,7 @@
+# MISOPruebasAutomatizadas
+
 # Documento de estrategia de pruebas
 https://drive.google.com/file/d/14fTRObXjMAm0t-Rc4HYY6OSfctGWPkFQ/view?usp=drive_link
-
-# MISOPruebasAutomatizadas
 
 # Versiones de las herramientas utilizadas
 Este es un repositorio creado para realizar las actividades de pruebas automatizadas
