@@ -3,6 +3,9 @@
 # Documento de estrategia de pruebas
 https://drive.google.com/file/d/14fTRObXjMAm0t-Rc4HYY6OSfctGWPkFQ/view?usp=drive_link
 
+# Video explicacion de la estrategia
+https://www.canva.com/design/DAFkJiKI3lE/tGQnmZzF5f-xiuEOSuxbOw/watch?utm_content=DAFkJiKI3lE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
+
 # Versiones de las herramientas utilizadas
 Este es un repositorio creado para realizar las actividades de pruebas automatizadas
 
